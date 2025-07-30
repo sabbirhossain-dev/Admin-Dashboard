@@ -43,8 +43,8 @@ const Charts = ({darkMode}) => {
 };
 
   return (
-    <div className='p-1 text-gray-600 dark:text-gray-300 bg-white dark:bg-gray-900 rounded-md'>
-        <Chart type='donut' options={options.options} series={options.series} height={300}/>
+    <div className=' flex justify-center p-1 text-gray-600 dark:text-gray-300 bg-white dark:bg-gray-900 rounded-md'>
+        <Chart type='donut' options={options.options} series={options.series} height={250}/>
     </div>
   )
 }
