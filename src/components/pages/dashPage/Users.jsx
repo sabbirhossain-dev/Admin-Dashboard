@@ -5,9 +5,9 @@ import { FaEye } from 'react-icons/fa6'
 const Users = () => {
   return (
     <>
-        <div className='flex gap-6 sm:gap-6 md:gap-[23px] md:flex-col w-1/3 md:h-[370px]'>
+        <div className='flex gap-2 sm:gap-6 md:gap-[23px] md:flex-col w-1/3 md:h-[370px]'>
 
-        <div className=' flex gap-2 sm:gap-3 items-center p-[9px] sm:p-4 sm:pt-8 sm:pb-8 bg-white text-gray-600 dark:bg-gray-800 dark:text-gray-100 rounded-md'>
+        <div className=' flex gap-2 sm:gap-3 items-center p-[5px] sm:p-4 sm:pt-8 sm:pb-8 bg-white text-gray-600 dark:bg-gray-800 dark:text-gray-100 rounded-md'>
           <div className='p-2 text-gray-600 bg-gray-200 pt-3 pb-3 rounded-md'>
             <FaUser />
           </div>
@@ -18,8 +18,8 @@ const Users = () => {
 
         </div>
 
-        <div className=' flex gap-2 sm:gap-3 items-center p-[9px] sm:p-4 sm:pt-8 sm:pb-8 bg-white text-gray-600 dark:bg-gray-800 dark:text-gray-100 rounded-md'>
-          <div className='p-2 text-gray-600 bg-blue-200 pt-3 pb-3 rounded-md'>
+        <div className=' flex gap-2 sm:gap-3 items-center p-[5px] sm:p-4 sm:pt-8 sm:pb-8 bg-white text-gray-600 dark:bg-gray-800 dark:text-gray-100 rounded-md'>
+          <div className='p-2 text-gray-600 bg-blue-100 pt-3 pb-3 rounded-md'>
             <FaEye />
           </div>
           <div>
@@ -29,8 +29,8 @@ const Users = () => {
 
         </div>
 
-          <div className=' flex gap-2 sm:gap-3 items-center p-[9px] sm:p-4 sm:pt-8 sm:pb-8  bg-white text-gray-600 dark:bg-gray-800 dark:text-gray-100 rounded-md'>
-          <div className='p-2 text-gray-600 bg-yellow-200 pt-3 pb-3 rounded-md'>
+          <div className=' flex gap-2 sm:gap-3 items-center p-[5px] sm:p-4 sm:pt-8 sm:pb-8  bg-white text-gray-600 dark:bg-gray-800 dark:text-gray-100 rounded-md'>
+          <div className='p-2 text-gray-600 bg-yellow-100 pt-3 pb-3 rounded-md'>
             <FaUserCheck />
           </div>
           <div>

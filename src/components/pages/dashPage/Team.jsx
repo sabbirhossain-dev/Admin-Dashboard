@@ -14,62 +14,62 @@ const Team = () => {
 
 
           <div className='flex justify-between items-center'>
-          <div className='flex gap-3'>
-            <img src={User1} alt='profile' className='w-14 rounded-full'/>
+          <div className='flex gap-2 sm:gap-3'>
+            <img src={User1} alt='profile' className='w-12 h-12 sm:w-14 sm:h-14 rounded-full'/>
             <div className=''>
-              <p className='text-lg text-gray-700 font-semibold dark:text-gray-200'>Robert Fox</p>
-              <p className='text-gray-600 text-md dark:text-gray-300'>USA</p>
+              <p className='text-md sm:text-lg text-gray-700 font-semibold dark:text-gray-200'>Robert Fox</p>
+              <p className='text-gray-600 text-sm sm:text-md dark:text-gray-300'>USA</p>
             </div>
           </div>
-          <div className=' bg-yellow-200 dark:bg-gray-500 text-gray-700 dark:text-gray-200 rounded-full'>
-            <p className='p-3'>Python Developer</p>
+          <div className=' bg-yellow-100  text-gray-700 rounded-full'>
+            <p className='p-2 sm:p-3 text-sm sm:text-md'>Python Developer</p>
           </div>
         </div>
 
 
          <div className='flex justify-between items-center'>
           <div className='flex gap-3'>
-            <img src={User2} alt='profile' className='w-14 rounded-full'/>
+            <img src={User2} alt='profile' className='w-12 h-12 sm:w-14 sm:h-14 rounded-full'/>
             <div className=''>
-              <p className='text-lg text-gray-700 font-semibold dark:text-gray-200'>Jane Doe</p>
-              <p className='text-gray-600 text-md dark:text-gray-300'>UK</p>
+              <p className='text-md sm:text-lg text-gray-700 font-semibold dark:text-gray-200'>Jane Doe</p>
+              <p className='text-gray-600 text-sm sm:text-md dark:text-gray-300'>UK</p>
             </div>
           </div>
 
-          <div className=' bg-sky-200 dark:bg-gray-500 text-gray-700 dark:text-gray-200 rounded-full'>
-            <p className='p-3'>Frontend Developer</p>
+          <div className=' bg-sky-100 text-gray-700  rounded-full'>
+            <p className='p-2 sm:p-3 text-sm sm:text-md'>Frontend Developer</p>
           </div>
         </div>
 
 
          <div className='flex justify-between items-center'>
           <div className='flex gap-3'>
-            <img src={User3} alt='profile' className='w-14 rounded-full'/>
+            <img src={User3} alt='profile' className='w-12 h-12 sm:w-14 sm:h-14 rounded-full'/>
             <div className=''>
               <p
-               className='text-lg text-gray-700 font-semibold dark:text-gray-200'>John Smith</p>
-              <p className='text-gray-600 text-md dark:text-gray-300'>Canada</p>
+               className='text-md sm:text-lg text-gray-700 font-semibold dark:text-gray-200'>John Smith</p>
+              <p className='text-gray-600 text-sm sm:text-md dark:text-gray-300'>Canada</p>
             </div>
           </div>
 
 
-          <div className=' bg-gray-300 dark:bg-gray-500 text-gray-700 dark:text-gray-200 rounded-full'>
-            <p className='p-3'>Backend Developer</p>
+          <div className=' bg-gray-300 text-gray-700 rounded-full'>
+            <p className='p-2 sm:p-3 text-sm sm:text-md'>Backend Developer</p>
           </div>
         </div>
 
 
          <div className='flex justify-between items-center'>
           <div className='flex gap-3'>
-            <img src={User1} alt='profile' className='w-14 rounded-full'/>
+            <img src={User1} alt='profile' className='w-12 h-12 sm:w-14 sm:h-14 rounded-full'/>
             <div className=''>
-              <p className='text-lg text-gray-700 font-semibold dark:text-gray-200'>Alice Johnson</p>
-              <p className='text-gray-600 text-md dark:text-gray-300'>Australia</p>
+              <p className='text-md sm:text-lg text-gray-700 font-semibold dark:text-gray-200'>Alice Johnson</p>
+              <p className='text-gray-600 text-sm sm:text-md dark:text-gray-300'>Australia</p>
             </div>
           </div>
 
-          <div className=' bg-gray-200 dark:bg-gray-500 text-gray-700 dark:text-gray-200 rounded-full'>
-            <p className='p-3'>Full-Stack Developer</p>
+          <div className=' bg-gray-200 text-gray-700  rounded-full'>
+            <p className='p-2 sm:p-3 text-sm sm:text-md'>UI/UX Designer</p>
           </div>
         </div>
 

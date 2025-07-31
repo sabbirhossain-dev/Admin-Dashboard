@@ -8,38 +8,38 @@ const Events = () => {
         <div className='flex flex-col gap-10'>
 
             <div className='flex gap-5 items-center'>
-            <div className='bg-gray-400 dark:bg-gray-700 text-gray-800 dark:text-gray-300 p-2 pl-4 pr-4 rounded-md text-center font-semibold'>
+            <div className='bg-gray-400 dark:bg-gray-700 text-gray-800 dark:text-gray-300 p-2 pl-4 pr-4 rounded-md text-center text-md  font-semibold'>
                 <p>01</p>
                 <span>Aug</span>
             </div>
 
             <div>
-                <p className='text-xl font-semibold text-gray-500 dark:text-gray-300'>Upcoming Event</p>
-                <span className='text-gray-400 text-lg dark:text-gray-400'>Upcoming event held on 01 Aug</span>
+                <p className='text-lg sm:text-xl font-semibold text-gray-500 dark:text-gray-300'>Upcoming Event</p>
+                <span className='text-gray-400 text-md sm:text-lg dark:text-gray-400'>Upcoming event held on 01 Aug</span>
             </div>
         </div>
 
         <div className='flex gap-5 items-center'>
-            <div className='bg-gray-400 dark:bg-gray-700 text-gray-800 dark:text-gray-300 p-2 pl-4 pr-4 rounded-md text-center font-semibold'>
+            <div className='bg-gray-400 dark:bg-gray-700 text-gray-800 dark:text-gray-300 p-2 pl-4 pr-4 rounded-md text-center text-md  font-semibold'>
                 <p>15</p>
                 <span>Sep</span>
             </div>
 
             <div>
-                <p className='text-xl font-semibold text-gray-500 dark:text-gray-300'>Annual Conference</p>
-                <span className='text-gray-400 text-lg dark:text-gray-400'>Join us for our annual conference</span>
+                <p className='text-lg sm:text-xl font-semibold text-gray-500 dark:text-gray-300'>Annual Conference</p>
+                <span className='text-gray-400 text-md sm:text-lg dark:text-gray-400'>Join us for our annual conference</span>
             </div>
         </div>
 
         <div className='flex gap-5 items-center'>
-            <div className='bg-gray-400 dark:bg-gray-700 text-gray-800 dark:text-gray-300 p-2 pl-4 pr-4 rounded-md text-center font-semibold'>
+            <div className='bg-gray-400 dark:bg-gray-700 text-gray-800 dark:text-gray-300 p-2 pl-4 pr-4 rounded-md text-center text-md font-semibold'>
                 <p>20</p>
                 <span>Sep</span>
             </div>
 
             <div>
-                <p className='text-xl font-semibold text-gray-500 dark:text-gray-300'>Networking Meetup</p>
-                <span className='text-gray-400 text-lg dark:text-gray-400'>Connected with professionals in your field</span>
+                <p className='text-lg sm:text-xl font-semibold text-gray-500 dark:text-gray-300'>Networking Meetup</p>
+                <span className='text-gray-400 text-md sm:text-lg dark:text-gray-400'>Connected with professionals in your field</span>
             </div>
         </div>
         </div>

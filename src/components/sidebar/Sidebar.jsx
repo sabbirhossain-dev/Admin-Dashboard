@@ -21,13 +21,13 @@ import { TiMessages } from "react-icons/ti";
 const Sidebar = ({isMenuBarOpen}) => {
   return (
     <>
-       <ul className={`absolute top-18 z-40 left-0 sm:static w-[240px] h-screen md:h-auto md:w-[260px] lg:w-[280px] border-r bg-gray-100 border-b border-gray-200 sm:translate-x-0 transition-transform dark:bg-gray-900 dark:border-gray-700 ${isMenuBarOpen ? "translate-x-0" : "-translate-x-full"} `}>
+       <ul className={`absolute top-18 z-40 left-0 sm:static w-[180px] sm:w-[220px] h-screen md:h-auto md:w-[260px] lg:w-[280px] border-r bg-gray-100 border-b border-gray-200 sm:translate-x-0 transition-transform dark:bg-gray-900 dark:border-gray-700 ${isMenuBarOpen ? "translate-x-0" : "-translate-x-full"} `}>
         {/* {links.map(({icon,href,text})=>{
         return <NavItem icon={icon} href={href} text={text} />
 
         })} */}
         <li className='flex flex-col pl-5 pt-3 text-md text-gray-900 dark:text-gray-50 font-medium cursor-pointer justify-center'>
-          <NavLink to="/" className="shadow-sm p-3 flex gap-3 items-center"><span><MdSpaceDashboard /></span>Dashboard
+          <NavLink to="/" className="shadow-sm p-3 flex gap-3 items-center "><span><MdSpaceDashboard /></span>Dashboard
           </NavLink>
 
           <NavLink to="/inbox" className="shadow-sm p-3 flex gap-3 items-center "><span className=''><TiMessages /></span>Inbox</NavLink>

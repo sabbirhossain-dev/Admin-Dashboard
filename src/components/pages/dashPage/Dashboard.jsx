@@ -10,7 +10,7 @@ import Events from './Events'
 const Dashboard = () => {
   return (
     <>
-      <section className='p-4 bg-gray-100 dark:bg-gray-900 w-full h-auto flex flex-col lg:flex-row justify-between gap-5'>
+      <section className='p-2 pt-4 sm:p-4 bg-gray-100 dark:bg-gray-900 w-full h-auto flex flex-col lg:flex-row justify-between gap-5'>
 
       <div className='flex flex-col w-full'>
         <div className='flex flex-col md:flex-row md:justify-between gap-5'>
